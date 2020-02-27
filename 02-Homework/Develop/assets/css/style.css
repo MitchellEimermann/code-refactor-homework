@@ -13,6 +13,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* border bottom */
+    border-bottom: 5px solid black;
 }
 
 .header h1 {
@@ -44,6 +46,11 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* (a) Hover color */
+a:hover {
+    color: crimson;
 }
 
 p {
@@ -84,6 +91,25 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* border for the benifit div */
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+/* borders for the h2 divs */
+.search-engine-optimization {
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.online-reputation-management {
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.social-media-marketing {
+    border: 5px solid black;
+    border-radius: 25px;
 }
 
 .benefit-lead {
