@@ -15,6 +15,9 @@ body {
     color: #ffffff;
     /* border bottom */
     border-bottom: 5px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header h1 {
@@ -46,11 +49,12 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Oxanium';
 }
 
 /* (a) Hover color */
 a:hover {
-    color: crimson;
+    color: black;
 }
 
 p {
